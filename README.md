@@ -1,30 +1,55 @@
-# SPACE SHIT
+# Space shit ui
 
-This is ui
+Ui part of space shit application
 
-## Available Scripts
+## Contributing
 
-In the project directory, you can run:
+Contributions are always welcome!
 
-### `yarn start`
+See `contributing.md` for ways to get started.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please adhere to this project's `code of conduct`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Running
 
-### `yarn test`
+Clone the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/Belka-Stelka/space-shit-ui.git
+```
 
-### `yarn build`
+Go to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd space-shit-ui
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Running with yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In a project directory install dependencies:
+
+```bash
+  yarn install
+```
+
+Start the ui:
+
+```bash
+  yarn start
+```
+
+#### Running with Docker
+
+From the project directory build image:
+
+```bash
+    docker build -t space-shit-ui .
+```
+
+Run image as a container:
+
+```bash
+    docker run space-shit-ui:latest
+```
+
+Open development version on: http://localhost:3000/
