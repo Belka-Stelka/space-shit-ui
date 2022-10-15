@@ -1,0 +1,24 @@
+name: ⚒️🔥🆕🆕🆕 New feature in the SPACE SHIT UI
+description: ADD NEW AMAZING AND GREAT FEATURE🆒 🆒
+title: "⚒️ "
+labels: ["enhancement", "good first issue"]
+assignees: 
+- 
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to propose an this shit! We really appreciate your contribution. 🙏🏻 🔥
+
+- type: textarea
+  attributes:
+    label: Description
+    description: Add the description of a feature.
+    placeholder: description.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Features
+    description: A concise description of the features of the app.
