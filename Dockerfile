@@ -1,14 +1,13 @@
-FROM node:16-alpine as build
+FROM node:16-alpine
 
-WORKDIR /ui
+WORKDIR /app
 
-COPY package.json .
-COPY yarn.lock .
-COPY . .
+COPY yarn.lock package.json ./
 
 RUN yarn install
 
+COPY . .
 
-EXPOSE 3000:3000
+EXPOSE 3000
 
 CMD ["yarn", "start"]
